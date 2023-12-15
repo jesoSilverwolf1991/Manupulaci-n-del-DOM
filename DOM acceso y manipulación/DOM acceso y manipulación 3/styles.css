@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url(musica.jpg);
+    background-size: cover;
+}
+
+.music-player {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}

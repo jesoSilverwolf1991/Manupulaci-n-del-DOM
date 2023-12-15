@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reproductor de Música</title>
+</head>
+<body>
+
+<div class="music-player">
+    <h2 id="song-title">Canción: Ninguna</h2>
+    <h3 id="artist">Artista: Ninguno</h3>
+    
+    <audio id="audio-player" controls>
+        <source src="cancion1.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <div class="controls">
+        <button id="play-btn">▶️ Play</button>
+        <button id="pause-btn">⏸️ Pause</button>
+        <button id="next-btn">➡️ Siguiente Canción</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

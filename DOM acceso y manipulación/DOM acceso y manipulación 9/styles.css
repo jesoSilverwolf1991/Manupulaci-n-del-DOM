@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url(fondominimalista.png);
+}
+
+.poll-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.option {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}

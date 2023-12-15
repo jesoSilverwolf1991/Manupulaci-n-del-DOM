@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+background-image: url(fondo.jpeg);
+background-size: cover;
+}
+
+.booking-container {
+    max-width: 600px;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+#calendar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.date {
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#selected-date {
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+#book-btn {
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bookings-container {
+    margin-top: 20px;
+}
+
+#bookings-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booking {
+    margin-bottom: 5px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h3{
+    color: aliceblue;
+}
